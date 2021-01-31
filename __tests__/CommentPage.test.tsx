@@ -66,6 +66,6 @@ describe('Comment page with useSWR / Success+Error', () => {
       </SWRConfig>
     )
     expect(await screen.findByText('Error!')).toBeInTheDocument()
-    screen.debug()
+    // screen.debug()
   })
 })
