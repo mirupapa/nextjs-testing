@@ -1,0 +1,4 @@
+{
+  // babelのjestに対して、nextの環境で実行するよ宣言
+  "presets": ["next/babel"]
+}
